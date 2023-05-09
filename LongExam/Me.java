@@ -11,7 +11,7 @@ public class Me implements Tourist {
     public void visit(Boracay boracay) {
 
         System.out.println("Budget is " + budget +".");
-        if(budget > boracay.airFare) {
+        if(budget >= boracay.airFare) {
             System.out.print("Enjoying my summer vacation in Boracay.");
             budget = budget - boracay.airFare;
             System.out.println(" Current budget is " + budget +".");    
@@ -22,7 +22,7 @@ public class Me implements Tourist {
     public void visit(Jeju jeju) {
 
         System.out.println("Budget is " + budget +".");
-        if(budget > jeju.airFare) {
+        if(budget >= jeju.airFare) {
             System.out.print("Relaxing in Jeju island.");
             budget = budget - jeju.airFare;
             System.out.println(" Current budget is " + budget +".");    
@@ -34,7 +34,7 @@ public class Me implements Tourist {
     public void visit(Baguio baguio) {
 
         System.out.println("Budget is " + budget +".");
-        if(budget > baguio.airFare) {
+        if(budget >= baguio.airFare) {
             System.out.print("Having fun in baguio.");
             budget = budget - baguio.airFare;
             System.out.println(" Current budget is " + budget +".");    
@@ -45,7 +45,7 @@ public class Me implements Tourist {
     public void visit(Bohol bohol) {
 
         System.out.println("Budget is " + budget +".");
-        if(budget > bohol.airFare) {
+        if(budget >= bohol.airFare) {
             System.out.print("Taking a tour in Chocolate hills.");
             budget = budget - bohol.airFare;
             System.out.println(" Current budget is " + budget +".");    
@@ -57,7 +57,7 @@ public class Me implements Tourist {
     public void visit(Rizal rizal) {
 
         System.out.println("Budget is " + budget +".");
-        if(budget > rizal.airFare) {
+        if(budget >= rizal.airFare) {
             System.out.print("Having a staycation in Rizal.");
             budget = budget - rizal.airFare;
             System.out.println(" Current budget is " + budget +".");    
@@ -68,7 +68,7 @@ public class Me implements Tourist {
     public void visit(Tagaytay tagaytay) {
 
         System.out.println("Budget is " + budget +".");
-        if(budget > tagaytay.airFare) {
+        if(budget >= tagaytay.airFare) {
             System.out.print("Freezing in Tagaytay.");
             budget = budget - tagaytay.airFare;
             System.out.println(" Current budget is " + budget +".");    
