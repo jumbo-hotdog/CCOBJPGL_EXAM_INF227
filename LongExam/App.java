@@ -13,11 +13,22 @@ public class App {
         Tourist me = new Me();
 
         boracay.accept(me);
+        System.out.println();
+
         jeju.accept(me);
+        System.out.println();
+
         baguio.accept(me);
+        System.out.println();
+
         bohol.accept(me);
+        System.out.println();
+
         rizal.accept(me);
+        System.out.println();
+
         tagaytay.accept(me);
+        System.out.println();
 
         // Long exam 1
 
