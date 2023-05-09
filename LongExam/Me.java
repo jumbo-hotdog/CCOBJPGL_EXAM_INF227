@@ -35,7 +35,7 @@ public class Me implements Tourist {
 
         System.out.println("Budget is " + budget +".");
         if(budget >= baguio.airFare) {
-            System.out.print("Having fun in baguio.");
+            System.out.print("Having fun in Baguio.");
             budget = budget - baguio.airFare;
             System.out.println(" Current budget is " + budget +".");    
         } else
